@@ -1,0 +1,202 @@
+blockquote {
+    padding: 1em;
+}
+h1 {
+    font-size: 2.3em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.6em;
+}
+h4 {
+    font-size: 1.2em;
+}
+h5 {
+    font-weight: bold;
+}
+h2, h3, h4, h5, h6 {
+    padding: 1em 0 .5em 0;
+}
+h2:first-child, h3:first-child {
+    padding-top: 0;
+}
+.everything {
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0 2em;
+    border-style: solid;
+}
+
+
+
+.header {
+    padding: 1em;
+}
+.header h1 a {
+    text-decoration: none;
+}
+
+
+.navbar {
+    font-size: 1.1em;
+    display: block;
+    padding: .5em .2em;
+}
+.navbar ul li {
+    list-style: none;
+    margin: none;
+    padding: none;
+    display: inline-block;
+}
+.navbar ul li a {
+    padding: .2em .8em;
+}
+
+
+
+.content {
+    padding: 2em;
+}
+
+.footer {
+    padding: 1em;
+}
+
+
+
+.update {
+    margin: 0 1em;
+    padding: 0 1em;
+}
+p {
+    margin-bottom: .7em;
+}
+.pagebody p:first-letter, .authorcomment p:first-letter,
+.synopsis p:first-letter, .update p:first-letter {/* this makes an indent without indenting the image */
+    margin-left: 2em;
+}
+.pagebody img {
+    display: block;
+    margin: 0 auto;
+}
+
+.hometext, .update, .newsitem,
+.archive, .synopsis,
+.pagebody, .authorcomment {
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+
+.pagenav {
+    text-align: center;
+    height: 2em;
+    padding: 1em 0;
+    width: 100%;
+}
+.pagenav .forwardlinks, .pagenav .backlinks {
+    width: 49%;
+    display: inline-block;
+}
+.pagenav .forwardlinks div, .pagenav .backlinks div {
+    display: inline-block;
+    width: 45%;
+}
+.pagenav .forwardlinks div a, .pagenav .backlinks div a {
+    text-align: center;
+    font-size: 1.3em;
+    display: block;
+    padding: .2em 0em;
+}
+.pagenav .backlinks {
+    margin-left: 0;
+    margin-right: auto;
+    text-align: right;
+}
+.pagenav .forwardlinks {
+    margin-right: 0;
+    margin-left: auto;
+    text-align: left;
+}
+.pagenav div.first span:before {
+    content: "\00ab\00a0";
+}
+.pagenav div.previous span:before {
+    content: "\2039\00a0";
+}
+.pagenav div.next span:after {
+    content: "\00a0\203A";
+}
+.pagenav div.last span:after {
+    content: "\00a0\00bb";
+}
+
+
+
+.archive .chapter {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.archive .chapter {
+    columns: 10em 2;
+    -webkit-columns: 10em 2; /* Safari and Chrome */
+    -moz-columns: 10em 2; /* Firefox */
+}
+.withpagethumb .chapter {
+    columns: auto auto;
+    -webkit-columns: auto auto; /* Safari and Chrome */
+    -moz-columns: auto auto; /* Firefox */
+}
+.withpagethumb {
+    text-align: center;
+}
+.pagelink {
+    margin: 1em;
+    font-size: 1.1em;
+    display: inline-block;
+}
+.withpagethumb .pagelink {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 1.5em .4em;
+}
+.withpagethumb .pagelink img {
+    display: block;
+    margin-left: auto; margin-right: auto;
+    max-height: 120px;
+    padding: .2em;
+}
+.coverlink {
+    text-align: left;
+    margin-left: -2.5em;
+    padding: .5em 2em;
+}
+.coverlink a .title {
+    font-size: 1.7em;
+}
+.withcoverthumb .coverlink {
+    padding-left: 1.5em;
+    margin-top: 70px;
+    margin-bottom: 2em;
+}
+.withcoverthumb .coverlink:first-child {
+    margin-top: 55px;
+}
+.withcoverthumb .coverlink img {
+    max-height: 120px;
+    max-width: 120px;
+    float: left;
+    margin: 1em;
+    margin-top: -60px;
+    margin-bottom: .5em;
+}
+
+.thumbnail {
+    max-height: 120px;
+    max-width: 120px;
+}
+

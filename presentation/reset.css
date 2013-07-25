@@ -1,0 +1,23 @@
+/*************************************************
+ ********** BROWSER RESET (MARGINS ETC) **********
+ *************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+
+blockquote {
+	border-left: solid 4px #CCC;
+	margin-left: 1em;
+}

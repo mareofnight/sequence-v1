@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([a-zA-Z0-9_\-]+)(/)?$ index.php?slug1=$1
+RewriteRule ^([a-zA-Z0-9_\-]+)/([a-zA-Z0-9_\-]+)(/)?$ index.php?slug1=$1&slug2=$2
+RewriteRule ^([a-zA-Z0-9_\-]+)/([a-zA-Z0-9_\-]+)/([a-zA-Z0-9_\-]+)(/)?$ index.php?slug1=$1&slug2=$2&slug3=$3
+RewriteRule ^([a-zA-Z0-9_\-]+)/([a-zA-Z0-9_\-]+)/([a-zA-Z0-9_\-]+)/([a-zA-Z0-9_\-]+)(/)?$ index.php?slug1=$1&slug2=$2&slug3=$3&slug4=$4
+RewriteRule ^([a-zA-Z0-9_\-]+)/([a-zA-Z0-9_\-]+)/([a-zA-Z0-9_\-]+)/([a-zA-Z0-9_\-]+)/([a-zA-Z0-9_\-]+)(/)?$ index.php?slug1=$1&slug2=$2&slug3=$3&slug4=$4&slug5=$5

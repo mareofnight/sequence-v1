@@ -1,0 +1,158 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Droid Serif", Gerogia, serif;
+}
+
+h2 {
+    text-shadow: 1px 1px 1px #C6E9EC;
+}
+
+
+.header h1 {
+    font-size: 3em;
+}
+.header h1 a {
+    text-decoration: none;
+    color: #000;
+}
+.logo-letter {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: -100em;
+}
+.logo-text {
+    font-family: "Droid Serif", Gerogia, serif;
+    vertical-align: center;
+    font-size: 40px;
+}
+.logo-image {
+    background-image: url('s-small.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    top: -3px;
+    height: 60px;
+    min-width: 45px;
+    display: inline-block;
+}
+header {
+    background-color: #81ced4;
+    margin-top: 6px;
+    margin-left: 3px;
+    height: 20px;
+    overflow: visible;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+.navbar {
+    background-color: #d3eef0;
+    padding-bottom: 10em;
+}
+
+
+/* all buttons */
+.navbar ul li a, .login ul li a, .dashboard a, .pagelist a, a.special,
+form div.submit input[type=submit], form div.submit button, form div.submit .button, a.previewlink {
+    background-color: #81ced4;
+    color: #063236;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fff;
+    border-color: #DAF4F6 #0B555C #0B555C #DAF4F6;
+}
+.navbar ul li a:hover, .login ul li a:hover, .dashboard a:hover, .pagelist a:hover,
+form div.submit input[type=submit]:hover, form div.submit button:hover, form div.submit .button:hover, a.previewlink:hover {
+    color: #000;
+    background-color: #6CC2C8;
+    text-shadow: 1px 1px 1px #d3eef0;
+    border-color: #1C7179 #C3EAEE #C3EAEE #1C7179;
+}
+/* yellow buttons */
+a.special, .login ul li a.special, .navbar ul li a.special, form .submit .button.cancel,
+form input[type=submit][value=cancel] {
+    background-color: #fcd264;
+    color: #2F2200;
+    text-shadow: 1px 1px 1px #fff;
+    border-color: #FEF1CE #6F5309 #6F5309 #FEF1CE;
+}
+a.special:hover, .login ul li a.special:hover, .navbar ul li a.special:hover, form .submit .button.cancel:hover,
+form input[type=submit][value=cancel]:hover {
+    background-color: #F0C248;
+    text-shadow: 1px 1px 1px #FEF1CE;
+    border-color: #978860 #FEE4A0 #FEE4A0 #978860;
+}
+/* red buttons */
+.stop, form div.submit input[type=submit][value=delete],
+form input[type=submit][value="delete basic page"],
+form input[type=submit][value="delete story page"],
+form input[type=submit][value="delete story"] {
+    background-color: #fc7564;
+    color: #2f0500;
+    text-shadow: 1px 1px 1px #fff;
+    border-color: #fed3ce #6f1409 #6f1409 #fed3ce;
+}
+.stop:hover, form div.submit input[type=submit][value=delete]:hover,
+form input[type=submit][value="delete basic page"]:hover,
+form input[type=submit][value="delete story page"]:hover,
+form input[type=submit][value="delete story"]:hover {
+    background-color: #f05a48;
+    text-shadow: 1px 1px 1px #fed3ce;
+    border-color: #976660 #feaaa0 #feaaa0 #976660;
+}
+/* green buttons */
+.green, .login ul li a.green {
+    background-color: #93e27e;
+    color: #0f2708;
+    text-shadow: 1px 1px 1px #fff;
+    border-color: #ddf6d6 #275d1a #275d1a #ddf6d6;
+}
+.green:hover, ,login ul li a.green:hover {
+    background-color: #7bd364;
+    text-shadow: 1px 1px 1px #ddf6d6;
+    border-color: #718d69 #bdeeb0 #bdeeb0 #718d69;
+}
+a.previewlink {
+    box-shadow: 2px 2px 5px #749093;
+}
+
+
+.help {
+    color: #444;
+    font-style: italic;
+}
+
+.error, .confirm {
+    font-weight:  bold;
+    padding: .2em;
+    margin: .2em;
+}
+div.error {
+    font-size: .9em;
+}
+
+.error {
+    background-color: #FFE2DF;
+    color: #99000B;
+}
+
+.confirm {
+    background-color: #dff8d9;
+    color: #2a7600;
+}
+
+
+div.draft {
+    background-color: #DAE3E4;
+    font-weight: bold;
+    text-align: center;
+}
+

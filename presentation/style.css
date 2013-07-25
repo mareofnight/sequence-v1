@@ -1,0 +1,101 @@
+body {
+    font-family: "Trebuchet MS", Helvectia, Arial, sans-serif;
+}
+
+body {
+    color: #30303E;
+    background-color: #424765;
+}
+.everything {
+    background-color: #705858;
+    border-color: #303048;
+}
+
+a:link, a {
+    color: #0088D1;
+}
+a:visited {
+    color: #6700FF;
+}
+a:hover {
+    color: #006BA4;
+}
+
+.content, .header {
+    
+}
+.hometext, .update, .newsitem,
+.archive, .synopsis,
+.pagebody, .authorcomment {
+    background-color: #F7E9DE;
+}
+.footer, .navbar {
+    color: #F7E9DE;
+}
+.navbar {
+    background-color: #303048;
+}
+.footer {
+    color: #F7E9DE;
+    border-style: solid;
+    border-width: .8em 0;
+    border-color: #303048;
+}
+
+
+.navbar a, navbar a:link, navbar a:visited {
+    color: #F7E9DE;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #F7E9DE;
+    color: #303048;
+}
+
+h1, h1 a, hi a:link, h1 a:visited, h1 a:hover, h2 {
+    color: #F7E9DE;
+    text-shadow: -3px 3px 3px #30303E;
+}
+h1 a:hover {
+    text-shadow: -3px 3px 3px #424765;
+}
+
+
+
+.pagenav a:link, .pagenav a:visited {
+    background-color: #F7E9DE;
+    color: #303048;
+}
+.pagenav a:hover {
+    background-color: #303048;
+    color: #F7E9DE;
+}
+.pagenav div div a {
+    text-decoration: none;
+}
+
+
+
+.pagelink .pagenum:after {
+    content: "\002E\0020";
+}
+.coverlink {
+    background-color: #303048;
+}
+.coverlink a {
+    color: #F7E9DE;
+    text-decoration: none;
+}
+.coverlink .widththumb {
+    
+}
+.coverlink a img {
+    box-shadow: -3px 3px 3px #424765;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,190 @@
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 2.3em;
+}
+h3 {
+    font-size: 1.8em;
+}
+h4 {
+    font-size: 1.5em;
+}
+h5 {
+    font-size: 1.2em;
+}
+h6 {
+    font-weight: bold;
+}
+h2, h3, h4, h5, h6 {
+    padding: 1em 0 .5em 0;
+}
+.content h2:first-of-type {
+    padding-top: 0;
+}
+
+.everything {
+    max-width: 65em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login {
+    text-align: right;
+    padding: .2em .5em;
+    padding-right: 0;
+}
+.login ul li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.navbar {
+    width: 10em;
+    display: inline-block;
+    padding: 1em .75em;
+    margin-top: 1em;
+}
+.navbar ul {
+    margin-bottom: 2em;
+}
+.navbar ul li {
+    margin-bottom: .5em;
+}
+.navbar ul li a {
+    display: block;
+    overflow: hidden;
+}
+
+.navbar ul li, .login ul li {
+    list-style: none;
+}
+.navbar ul li a, .login ul li a {
+    padding: .1em .4em;
+}
+
+.navbar ul li a, .login ul li a, a.previewlink {
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+a.previewlink {
+    padding: .3em .6em;
+    float: right;
+    position: relative;
+    top: -.8em;
+    border-width: 3px;
+    margin-bottom: 1.5em;
+}
+
+
+
+
+.content {
+    max-width: 43em;
+    width: 65%;
+    min-width: 25em;
+    padding: 2em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+form {
+    padding: 0 1em;
+}
+form * {
+    padding: .75em 0;
+}
+form * * {
+    padding: 0;
+}
+
+form label:after {
+    content: ': ';
+}
+form .error:after {
+    content: '.';
+}
+
+form .help {
+    font-size: .8em;
+}
+
+form div.submit {
+    text-align: center;
+}
+input[type=submit], button, .button {
+    font-size: 1.2em;
+    padding: .2em .3em;
+    border-style: solid;
+    border-width: 3px;
+}
+form div.submit input[type=submit],
+form div.submit button,
+form div.submit .button {
+    position: relative;
+    top: .37em;
+}
+form div.submit input[type=submit]:last-child,
+form div.submit button:last-child,
+form div.submit .button:last-child {
+    float: right;
+    top: 0;
+}
+form div.submit input[type=submit]:first-child,
+form div.submit button:first-child,
+form div.submit .button:first-child {
+    float: left;
+    top: 0;
+}
+form .submit .error {
+    margin-top: 2em;
+}
+form div.formelement p {
+    clear: both;
+}
+form p {
+    margin: 1em 0;
+}
+
+
+
+
+
+
+.dashboard a, .pagelist a, .content .special {
+    display: block;
+    font-size: 1.2em;
+    padding: .4em;
+    margin: 1em;
+    text-align: center;
+    border-width: 4 px;
+    border-style: solid;
+    clear: both;
+}
+.dashboard h4 a {
+    margin: 0;
+    font-size: 1em;
+}
+
+.pagelist a .pagenum {
+    float: left;
+}
+
+
+
+a.special {
+    margin-bottom: 1.5em;
+}
+.navbar a.special {
+    margin-bottom: 0;
+}
+
+
+div.draft {
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+

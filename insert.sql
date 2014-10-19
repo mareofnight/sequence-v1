@@ -64,7 +64,7 @@ INSERT INTO Grant_ (roleid, permissionid) VALUES
         (SELECT permissionid FROM Permission WHERE permission = "manage_users" GROUP BY permission));
 
 INSERT INTO User (userid, username, password, email, roleid) VALUES
-    (1, "admin", "password", "email@example.com",
+    (1, "admin", "*0", "email@example.com",
         (SELECT roleid FROM Role WHERE role = "admin" GROUP BY role));
 
 
